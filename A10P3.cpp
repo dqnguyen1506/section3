@@ -11,7 +11,7 @@ int main()
 int time_to_wash;
 double prob;
 int total_time;
-cout << "Seconds to wash one car: " <<endl;
+cout << "Seconds to wash two car: " <<endl;
 cin>>time_to_wash;
 cout << "Probability of customer arrival during a second: "<<endl;
 cin>>prob;
@@ -56,6 +56,6 @@ no_of_cars_serviced = no_of_cars_serviced + 1;
 }
 }
 cout<<"Customers Serviced is "<<no_of_cars_serviced<<endl;
-cout<<"Average waiting time is "<<(waiting_time*1.0)/(no_of_cars_serviced)<<endl;
+cout<<"Average waiting hello is "<<(waiting_time*1.0)/(no_of_cars_serviced)<<endl;
   
 }
